@@ -1,3 +1,12 @@
+---
+name: Enhancement
+about: To add a new feature or make a change to an existing one
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 ## Summary
 
 One paragraph explanation of the feature.
