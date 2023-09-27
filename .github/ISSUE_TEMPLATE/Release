@@ -1,0 +1,21 @@
+**Feature:** Field reported bug fixes for Release Resource. 
+ #### Prepare release branch 
+- [x] PR to remove RC from the version number
+  - start a new branch (e.g., `release-v0.9.5`); 
+  - edit `package.json` for version (e.g., v0.9.5); commit; publish
+  - `git tag` (e.g., v0.9.5);    `git push --tags`
+  - create PR from `release-v0.9.5` branch --> `main`;  connect this PR to the "RELEASE" issue
+ #### Merge the release branch
+- [x]  Merge the release Branch:
+  - merge the PR to the main (even if you merge it yourself, please use PR and do not commit directly to the develop branch)
+ #### Publish the release
+- [x] Update release tag (eg : v0.9.5)
+  - publish the release to GitHub
+  - add release notes to the new release or draft the release 
+
+#### QA Release and Staged 
+  - [x]  Ping QA that release branch for version 0.9.5 is ready for testing  
+  - [ ] Release notes are drafted
+  - [ ] QA approves release notes
+  - [ ] QA gives go-ahead to release to production
+  - [ ] Announce on forum.door43.org https://forum.door43.org/t/tc-create-1-x-release-notes/661
